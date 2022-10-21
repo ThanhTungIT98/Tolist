@@ -1,0 +1,15 @@
+.test{
+  
+    display: flex;
+    gap:5px;
+}
+
+.test > div{
+    background-color: red;
+}
+
+.container-form1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}

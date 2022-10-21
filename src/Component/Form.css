@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.container-right{
+    border-radius: 5px;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.container-left>div{
+    margin-top: 10px;
+}
+.container-left>div > label {
+    width: 95px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.container-left>div>input{
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+}
+
+.container-left > button{
+    margin-top: 10px;
+}
+
+.detail{
+    height: 22px;
+}
+
+.btnForm{
+    display: flex;
+    gap: 5px;
+}
